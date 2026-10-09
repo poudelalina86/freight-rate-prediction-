@@ -1,4 +1,4 @@
-# Freight Rate Prediction – Spotter ML Assessment
+# Freight Rate Prediction 
 
 **Author:** Alina Chudali
 Predicts the posted rate of a truckload shipment. Trained on 48,000 labelled loads
@@ -115,4 +115,4 @@ to rates shifted in late summer, so the final model carries no time-level term.
 - Week-scale rate bumps of 1–2% are not predictable from the inputs provided.
 - Late-December holiday effects are absent from the January–October training window.
 - About 1% of the hidden validation labels are probably corrupted in the same way as the training labels, which caps any achievable score.
-# freight-rate-prediction-
+
