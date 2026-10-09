@@ -1,0 +1,3 @@
+shape GBM on 15 features, 677 corrupt rows dropped; level[none]: resid = -0.1342 + 0.1011*mi + 0.0163*(t/100d); recent 8-week level = +0.56%
+shape features: distance, log_distance, weight, pickup_lat, pickup_lon, delivery_lat, delivery_lon, dlat, dlon, haversine, circuity, dayofweek, mi_dev, qs_dev, equipment_code
+training rows used: 47,323 of 48,000

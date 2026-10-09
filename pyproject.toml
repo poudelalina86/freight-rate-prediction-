@@ -1,0 +1,19 @@
+[project]
+name = "freight-rate-prediction"
+version = "0.1.0"
+description = "Freight rate prediction challenge - Spotter ML assessment"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.0,<3",
+    "numpy>=1.26,<3",
+    "matplotlib>=3.8,<4",
+    "scikit-learn>=1.5",
+]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+notebook = ["jupyter>=1.0", "nbconvert>=7", "ipykernel>=6"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
